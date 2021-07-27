@@ -1,0 +1,728 @@
+// only language which can interact with user is JS 
+JS is Queen of the frontend 
+
+Fronetned - js 
+Backend  -  java /python/c# 
+
+
+Nodejs 
+
+node demo.js
+
+Runtime enviornment which executes js files
+FULLSTACK DEVELOPER   - Frontend + Backend (JS) 
+JS + anybackend 
+
+
+React ?
+React is a ui library built in javascript for desgining fronetend of web applications 
+
+React developer is only dependent on api/backend 
+
+he/she can only take data from user to backend or vice-versa
+
+Limitation of fronetend developer they are always dependent on API
+
+
+React developer will take the seacrh text to backend and whatever is returned to show it to the user
+
+
+Why Only react ?
+
+
+Fast rendering of applicaing due to a concept known as Virtual Dom
+Virtual DOM
+
+DOM  - Document object model
+
+document -- serveral properties 
+virtual dom containes few properties 
+
+virtual dom is lighter representation of actual dom
+working on which heavier or lighter 
+
+every elemnt contains some properties events style parent child etc tc data
+
+
+DOM is object representation of html elements in one object model
+only value and color 
+if only few things ar getting vhanged then why to unnecarrily focus on other details 
+
+
+JSX -- JAVASCRIpt XML
+
+
+Once nodejs is installed 
+
+you have to open a new command prompt 
+
+npm install create-react-app
+
+React is used to create Single Page Application
+
+Single page app is where only one page is there and other are view loaded inside that page on requiremtn
+
+for exmaple  /login will open login view 
+/signp will open signup view 
+
+what is a html page  ? the one which contains body
+what is a html view ? the one which doesn't hsv body tag
+
+in which there is only one body and views are loaded insidet hat body on requirement 
+
+real time example we have seen mmt.com
+
+ + angular + Vuejs  + Next js
+Luxy cars  -  Audi , BMW  , Mercedes 
+
+Web application we have a design patterna 
+
+MVC - Model view Controller
+
+In flipkart model for product listing at home screen is 
+{name,price,image,discount,ratings,reviews}
+
+
+Model is the data part which is shown 
+View are elements on which data is binded for example imageurl is binded to <img> tag
+controller 
+
+business logic which is putting model to the view 
+
+
+React (View)
+Api (Controller)
+Database(Model)
+
+
+We all are champs in different functionalities Suyash is singing 
+Girish is football 
+
+they will create packages of their functionalities and publish it oever a central place known as npmjs.com
+
+world of js developers because they keep on putting their code on that and other oeople download it and use 
+
+packages are nothing but what functionalities  ?
+
+
+Modern frameworks are better?
+
+these provides u component based architecture 
+they say divide ur application in small small components and put it together to make it an application
+
+
+We have to make a component?
+
+What the **** is component ?
+
+is just a view 
+
+every package/module installed from npmjs.com stays inside a folder named as node_modules
+
+
+static data - not going to change right 
+
+what are static files ? -- 
+
+files which are stores in working directory of the project 
+which we wwant to access inside browser 
+
+
+a html file is served to ur browser over http server 
+
+we are  reaching to a local http server and that http server is sedning html file to browser 
+
+
+if that html file wants to access any file from the server / placed at the server 
+
+accessing files are not allowed 
+
+in order to provide access to other resources we need to make them static 
+
+what is static  - are the files/resources which can be accessed inside browser
+
+u can share prject except node_modules
+
+
+for node_modules they will exeecutl npm install 
+
+npm install will go to package.json and will install all the modules listed in dependencies and dev dependencies
+
+npm install xyz/abc 
+
+installing a package from npmjs.com
+
+npx create-react-app app-name is to use cra package to create react project 
+
+ creat-react-app
+
+
+what is NPM 
+NOde package manager --- is a tool to install uninstall create and modify npm packaegs
+
+npm install sridhar
+
+npm (it is a tool)
+
+it does what ? it install packages 
+packages can be installed at wo places one is inside a specific folder and other is globally 
+
+npm install abc will install it in the current location 
+npm install -g will install in sysytem global location 
+
+
+Now to use any local package in any other folder we use npx
+
+
+npx ashu
+
+Ecmascript are the javascript standards that states how to use javascript 
+
+
+for example to declare a function in js we have a keyword known as function 
+
+
+ES 5  --    browsers doesnot understand es 6 fully they support es6 partially 
+
+es 5 - lets say 100 standards
+
+es 6 - lets 150 standards
+
+what do we do for the keyowrds which are not supported by the brpwsers 
+
+
+react transpiles the es6 syntax into es5 syntax using babel
+
+
+package lock is maintained by package.json to maitain version history
+
+Es 6 features which are widely used 
+
+let and const 
+
+// ()=>{}
+// if there is only one argument parenthesis are optional and if it is a one liner code i can revoce curly braces also
+// in one liner code that one line is by default return statement  we dont need return keyword 
+
+
+
+// alert(trainer)
+
+
+// hOT reloading ins done react
+// you dont want to expose the training outside the reacttraining 
+
+90 percent js developers are not going to tell u use case ir arrow functions 
+
+Arrow functions were not created to shorten the code 
+
+they were created to preserve the scope of this operator 
+
+classes 
+
+COE- CONTEXT OF EXECUTION
+
+where a function is getting executed or called is known as Context of execution 
+
+functions Software developers 
+
+today u are working for TCS
+Google ?
+Facebook
+
+the problem with this operator is it loses its value to COE
+
+
+compomets 
+
+style="key:value;key:value"
+
+style="height:200px;width:200px"
+
+style={{height:"200px",width:"150px"}}
+
+Functional components are not updated once loaded into browser
+
+in order to change the data on browsers we need stateful component
+
+in setState() we can only pass object  {} , assign the data onto that object
+
+functional (stateless)  props
+classbased (stateful)  props and states both are objects 
+
+
+let likes = 90
+
+
+A pormise is a state which either gets resolved or returned 
+
+api call 
+returns us a promise 
+
+().then((response)=>{},(error)=>{})
+
+a promise is called fullfilled when we have got reply backeither it a yes or it is ano 
+but it is not in pending mode 
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+npm i -g json-server
+
+craete db.json file in a folder fakeserver
+
+in that json file 
+
+u can store records  in json format in db.json
+
+{
+    "cakes":[],
+    "users":[]
+}
+
+to start server 
+
+json-server --watch db.json --port 3001
+
+localhost:3001/cakes   - gets
+post 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Day 4 >>>>>>>>>>>>>>>>>>>>>
+
+
+All is about redux
+
+what is redux 
+
+redux is a state management third party library 
+
+Redux is stand alone i.e it can be used ithout react also 
+
+Actions 
+store 
+reducers
+
+Redux for managing the data 
+HOw do we manage the data in redux  
+
+Redux says which so ever component needs data ask me for the data not the components 
+
+
+REdux is used because of three priniciples
+
+1) Single source of Truth -  all the data of your whole application will stay inside a single state object 
+Technically we will have a state object ({}) and all the data we keep in this object 
+2) State is Read Only  --  state can be modified only by giving actions 
+3) Only Reducers can modify the state 
+
+a parent is updating the state 
+when state is updated all the children rendered inside parent will get changed 
+but we did not want that we only wanted 1 child to update its state not the another 10
+
+in that case rather than changing its own state parent would prefe to change the state of redux 
+
+so that only one child which is concerned about that specific data will be updated based on the changed value 
+
+
+Store  -- {} it contains the data 
+Reducers  -- functions which can modify the state of redux
+actions -- actions are plain javascript objects which contains a property known as type 
+{type:"ADDTOCART"}
+{type:"REMOVEFROMCART"}
+{type:"LOGIN"}
+{type:"LOGOUT"}
+
+
+dispatch --- dispatch is a function used to request some action on store 
+
+store.dispatch(action)
+action is a request object which states what to do
+
+
+on store methods available are 
+
+dispatch means reuesting action to be done 
+getSTate() is to get the data of store
+subscribe() means if any action is disptached to store subcribe will be called 
+
+we are creating a new blank object copying all the vlues of state into that 
+then state is refereing to new object
+
+Step 1
+to connect redux store with react application 
+Step 2 
+Connect components with redux so that they can dispatch actions on store 
+Step 3
+After Connecting component with redux it will get dispatch function in its props so that we can call props.dispatch(action)
+
+
+Login and Navbar are 2 different components something happening at login needs to update the state of navbar as well . So we need to pass some kind of data to navbar component . Login Component passed data to 
+redux store . navbar component was listening to some data from store (isuserloggedin property). the moment 
+login cm=omponent was able to add login details into redux . Navbar due to subscription got the data and updated its own state 
+
+This is the example of state management by redux 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Day 5  >>>>>>>>>>>>>>>
+
+Components will dispatch actions . Actions at store will executed via pure functions known as Reducers . 
+
+Action  to Reducers and reducers to state of store 
+
+Async action  - a task being done by reducer not the component  which is asynchronous 
+
+
+we were sending the data from component 
+
+components are views so if component is doing any other thign like fetching data 
+
+components shoud be desinged in a manner that they should only dispay the data 
+
+logic aur fetching data from api should be written inside component , if we do that we call it as side effects 
+
+We have decide we will move side effects into redux using a concept known as middlewares
+
+Sync Flow
+earlier component was bringing data from server and sending dispatch to redux 
+
+
+Async Flow
+component is disptatching action to redux and redux is going to bring data from the server first and update the store and state will be updated 
+
+
+for this thing we will use middlewares 
+
+Middlewares are functions which are invoked after dispatching the actions and before reaching to reducers 
+
+
+Reducers are simply taking actions and putting those actions onto store 
+
+components will not dispatch actions
+this will call a function which will make an api call and return the action to the reducer 
+
+
+From components to reducers 
+in middle will come an entity known as middleware 
+this entity will return action object which will be further dispatched to reducers
+
+
+
+Redux ---------------------- 
+
+Middlewares 
+to make api calls not from the component but before reaching out to reducers 
+
+Redux-thunk
+redux-saga 
+
+Our course covers redux-saga 
+
+
+redux -saga needs a concept to be understood known as generator functions 
+
+what are functions 
+functions are piece of code which i reusable  and return a value 
+
+gnerator functions are the special functions which can return multiple value over a period of time 
+
+
+function add(num1,num2){
+
+    return num1+num2
+}
+
+
+add(10,20)
+
+import statement will go to that file and run that file 
+
+
+actions are dipatched to store ------>>>> because store is using middleware so it will not go to reducer rather it will go to middleware functions  >>>>>>>>>>>> Middlewares function will take actions to reducer after the async operation is completed 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Day 6  >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+2 types of components 
+
+functional components  --- state less components
+class based  - statefull compoenents
+
+
+we want to update our component once it is rendered at browser
+
+
+Before 2019 feb we have to convert stateless components into stateful components if we want to change the view after rendering
+
+
+In 2019 a new concept REACT HOOKS 
+
+What is react Hooks
+
+React hooks are functions
+
+what they do ?
+
+they provide stateful features to state less components 
+
+
+so now after 2019 feb we can use state into functional components as well
+
+
+
+
+
+useState() is the first react hook which is allowing u to use state in functional component 
+
+whatever data you want to change apply that on state and then update that data 
+
+
+var [property,setProp] = useState(initialvalue)
+
+
+then whenever u want to update the value pass the updated value in handler funcion 
+how ---- setProp(updated value)
+
+
+constructor 
+
+componentdidmount()  -- it is called when component is rendered sucessfully
+
+useEffect(()=>{})
+
+
+setCake()
+
+rerendering happenend 
+
+
+componentDidUpdate()
+
+
+useEffect(()=>{},[])  it will not  be called on any update 
+
+useEffect(()=>{}) it will called on any/every change
+
+usereffect(()=>{},[property1,...... propertyN]) it will only get called when mentioned properties are changed
+
+
+this array is known as list of dependencies 
+
+
+
+splice(index,n)  it goes to index and removes n elements form that array
+
+
+useContext is used to pass the context in child components by the statement 
+
+
+let context = useContext(nameofcontext)
+
+
+in redux any component can get the data 
+
+context only children component can get the data from parents 
+
+
+function created to be called on specific user condition is known as custom  hooks 
+
+
+why do we call tat hook although we can the functions on those condtions right ?
+
+
+we will name them useCustomHookName()
+
+
+
+
+
+
+
+
+when we open our project cakes list should be displayed 
+/allcakes get 
+User functionality - registration login and forgot 
+
+register  ---- /register post {email,name,password}
+login ---- /login post {email,password}
+forgot----- /recoverpassword post {email}
+
+
+Search functionality 
+
+api - /searchcakes?q=   get
+
+cake details functionality -
+
+api /cake/cakeid   get
+
+
+
+Displaying all the cakes searching cakes from backend showing cake details when user click on some cake 
+
+let apiurl = "https://apifromashu.herokuapp.com/api/searchcakes?q=" +
+
+axios({
+    mthod:'get',
+    url :apiurl
+})
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Day 7 >>>>>>>>>>>>>>>>>>>>>>
+
+
+different api for different data
+
+/allcakes  -  [arry of cakes]
+/cake/cakeid -  {}
+
+
+query language  - instead of different endpooints we will have a common end point 
+
+
+localhost:3000/api/allcakes 
+
+localhost:3000/api 
+
+we will query for all cakes 
+cakedetails
+we will query for cake details 
+
+its a query language in which we will learn how to make different type of queries 
+
+making queries means asking for different daat 
+
+
+{
+    allcakes
+}
+
+{
+    cakedetails 
+}
+
+/hit for all cakes 
+
+/ hi ckaedetails 
+
+{
+    allcakes,
+    cakedetails 
+}
+
+
+Agenda of this session u should be able 
+
+when we will reach to the server we got some data 
+
+and we require another data also 
+
+we got less data thnn required 
+
+// from one api itself we are returning books and authors 
+// but we needed only books 
+
+over data 
+
+
+
+WHAT IS GRAPHQL 
+
+GRAPHQL IS A QUERY LANGUAGE OVER API SO THAT WE CAN ONLY REQURN THE REQUIRED DATA BY THE FRONTEND 
+
+
+all about querying what we need 
+
+
+/cart 
+
+/myorders 
+
+
+/searchcakes 
+
+{myorders{
+    orderid
+    name
+    price
+    address
+    data
+    mode
+    status
+}}
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>> Testing and Application Deployment  >>>>>>.
+
+
+we need a server to run our application 
+
+right now also our application is getting served on a http server created Nodejs 
+
+In order to see an application 
+What type of server we need ? http server / web server 
+
+java 
+Nodejs 
+python
+php 
+
+
+or 
+
+Alternatively if we dont know these languages
+
+Softwares to create web server /http server 
+
+Nginx
+Apcahe
+IIS 
+
+Nginx 
+
+
+your project flder and execute command 
+
+npm run build 
+
+build will give u static files now server is not required 
+
+this is static html and js and css which u can directly go to browsers and execute it 
+
+
+all the components and javascript files are converted into bundles js
+
+then index.html referes to those static js files or css files or assets 
+
+Conclusion we dont need any node server to run this react project 
+
+build which is created can be served using http server / web server built in any technology java php python .net 
+nginx apache 
+
+
+// to see with nginx 
+
+Step 1)
+install nginx server 
+
+Step 2) you have to look for a file nginx.conf
+
+Step 3 we have to edit nginx.conf and mention our server details there 
+
+
+Git ---- version controlling system
+
+redux function 
+
+
+ur code at centralised repository 
+
+changes u are making u can create versions fof rtaht put 
+
+checkpoints where we can save that code in case of errors we rollback to that version of code
+
+1) versioning
+2) development accross various developers 
+
